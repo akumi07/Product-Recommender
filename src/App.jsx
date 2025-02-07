@@ -62,7 +62,7 @@ const App = () => {
             className="bg-red-500 text-white px-4 py-2 rounded-lg hover:bg-red-600"
             onClick={() => {
               toast.dismiss(t.id);
-              window.location.href = "https://www.blisifu.com"; // Redirect to a different page
+              window.top.location.href = "https://www.blisifu.com"; // Redirect to a different page
             }}
           >
             Yes, End Quiz
