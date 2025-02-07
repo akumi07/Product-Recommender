@@ -26,7 +26,7 @@ const App = () => {
     { id: 3, name: "Bliss Mist", keywords: ["Confidence", "Moderate"], image: "https://via.placeholder.com/150", url: "https://www.blisifu.com/product-page/vitality-mist" }
   ];
 
-  const [currentQuestion, setCurrentQuestion] = useState(0);https://www.blisifu.com/product-page/energy-mist
+  const [currentQuestion, setCurrentQuestion] = useState(0);
   const [answers, setAnswers] = useState({});
   const [recommendedProduct, setRecommendedProduct] = useState(null);
   const [shuffledQuestions, setShuffledQuestions] = useState(shuffleArray(questions));  // Store shuffled questions
