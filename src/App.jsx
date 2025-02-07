@@ -21,12 +21,12 @@ const App = () => {
   ];
 
   const products = [
-    { id: 1, name: "Serenity Mist", keywords: ["Relaxation", "Mild"], image: "https://via.placeholder.com/150", url: "https://your-wix-site.com/serenity-mist" },
-    { id: 2, name: "Energy Mist", keywords: ["Energy Boost", "Strong"], image: "https://via.placeholder.com/150", url: "https://your-wix-site.com/energy-mist" },
-    { id: 3, name: "Bliss Mist", keywords: ["Confidence", "Moderate"], image: "https://via.placeholder.com/150", url: "https://your-wix-site.com/bliss-mist" }
+    { id: 1, name: "Serenity Mist", keywords: ["Relaxation", "Mild"], image: "https://via.placeholder.com/150", url: "https://www.blisifu.com/product-page/serenity-mist" },
+    { id: 2, name: "Energy Mist", keywords: ["Energy Boost", "Strong"], image: "https://via.placeholder.com/150", url: "https://www.blisifu.com/product-page/energy-mist" },
+    { id: 3, name: "Bliss Mist", keywords: ["Confidence", "Moderate"], image: "https://via.placeholder.com/150", url: "https://www.blisifu.com/product-page/vitality-mist" }
   ];
 
-  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const [currentQuestion, setCurrentQuestion] = useState(0);https://www.blisifu.com/product-page/energy-mist
   const [answers, setAnswers] = useState({});
   const [recommendedProduct, setRecommendedProduct] = useState(null);
   const [shuffledQuestions, setShuffledQuestions] = useState(shuffleArray(questions));  // Store shuffled questions
